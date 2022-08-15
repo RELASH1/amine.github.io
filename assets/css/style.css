@@ -213,7 +213,7 @@ header {
 .navbar-brand{
 	color: rgb(0, 0, 0);
     font-weight: bold;
-	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	background-color:none;
 }
 .nav-item {
     padding: 0em 1.2em 0em 1.2em;
