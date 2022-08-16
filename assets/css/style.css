@@ -204,17 +204,20 @@ body {
 header {
     height: 70px;
     background-color: transparent;
-	
+
 }
+
 .navbar-brand:hover,
-.navbar-brand:focus{
-	color: #fab758;
+.navbar-brand:focus {
+    color: #fab758;
 }
-.navbar-brand{
-	color: rgb(0, 0, 0);
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
     font-weight: bold;
-	background-color:none;
+    background-color: none;
 }
+
 .nav-item {
     padding: 0em 1.2em 0em 1.2em;
 }
@@ -242,6 +245,16 @@ header {
 
 .navigation .nav>.nav-item {
     padding: 0.5em 0.5em 0em 0.5em;
+
+}
+
+.navigation .nav>.nav-item a {
+    background-color: rgba(209, 209, 215, 0.2);
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    
 }
 
 
@@ -610,13 +623,15 @@ h2.display-3 {
     h4.progress-title {
         font-size: 1rem;
     }
+    .btn {
+        width: auto;
+        
 }
-
+}
 svg:not(:root) {
     overflow: hidden;
 }
 
-/*! CSS Used from: http://pierian-design.com/monster/7-solutions/css/vendor/animate.min.css */
 .rotateIn {
     -webkit-animation-name: rotateIn;
     animation-name: rotateIn;
@@ -740,6 +755,7 @@ svg:not(:root) {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+
 }
 
 #navbar.closed {
@@ -754,6 +770,7 @@ svg:not(:root) {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 1px, rgba(255, 255, 255, 0.2) 0px 4px 2px, rgba(255, 255, 255, 0.2) 0px 8px 4px, rgba(255, 255, 255, 0.2) 0px 16px 8px, rgba(255, 255, 255, 0.2) 0px 32px 16px;
 }
 
 #navbar.opened {
