@@ -254,7 +254,7 @@ header {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     backdrop-filter: blur(18.5px);
     -webkit-backdrop-filter: blur(18.5px);
-    
+
 }
 
 
@@ -623,11 +623,13 @@ h2.display-3 {
     h4.progress-title {
         font-size: 1rem;
     }
+
     .btn {
         width: auto;
-        
+
+    }
 }
-}
+
 svg:not(:root) {
     overflow: hidden;
 }
